@@ -6,6 +6,7 @@ from fer import FER
 count = 0
 
 emotiiGlobal = { "angry":0.0,"disgust":0.0,"fear":0.0,"happy":0.0,"sad":0.0,"surprise":0.0,"neutral":0.0}
+#pondere = { "angry":1.0,"disgust":1.0,"fear":1.0,"happy":1.0,"sad":1.0,"surprise":1.0,"neutral":1.0}
 pondere = { "angry":1.3,"disgust":2.0,"fear":2.0,"happy":1.0,"sad":2.5,"surprise":1.3,"neutral":1.6}
 
 def maxEmotion(dictionar):
@@ -59,7 +60,7 @@ def testing(emotion):
 
 
 testing("angry")
-testing("disgust")
+#testing("disgust")
 testing("fear")
 testing("happy")
 testing("neutral")

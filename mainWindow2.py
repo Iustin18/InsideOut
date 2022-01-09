@@ -30,8 +30,7 @@ def mainWindow():
 
     layout = [[sg.Text('OpenCV Demo', size=(40, 1), justification='center', font='Helvetica 20')],
               [sg.Image(filename='', key='image')],
-              [sg.Button('Record', size=(10, 1), font='Helvetica 14'),
-               sg.Button('Stop', size=(10, 1), font='Helvetica 14'), ]]
+              [sg.Button('Stop', size=(10, 1), font='Helvetica 14'), ]]
 
     window = sg.Window('Demo Application - OpenCV Integration',
                        layout, location=(800, 400))

@@ -1,6 +1,6 @@
 import PySimpleGUI as sg
 import cv2
-import mainWindow
+import mainWindow2
 import face_recognition
 
 def verifyFacialRecogn(frame):
@@ -86,7 +86,7 @@ def main():
 
 
 if main()==1:
-    mainWindow.mainWindow()
+    mainWindow2.mainWindow()
 
 
 
